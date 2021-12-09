@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    
+<body bgcolor="LightGray">
+
+        <center>
+
+        <h1> BIKE USAGE PREDICTION MODEL </h1><br>
+        
+        <form method="POST", action="{{url_for('predict')}}">
+           <b> t1 :  <input type="text", name='a', placeholder="enter 1"> <br><br>
+            t2 :  <input type="text", name='b', placeholder="enter 2"> <br><br>
+            hum :  <input type="text", name='c', placeholder="enter 3"> <br><br>
+            wind_speed : <input type="text", name='d', placeholder="enter 4"> <br><br><br>
+            weather_code :  <input type="text", name='e', placeholder="enter 5"> <br><br>
+            is_holiday :  <input type="text", name='f', placeholder="enter 6"> <br><br>
+            is_weekend :  <input type="text", name='g', placeholder="enter 7"> <br><br>
+            season :  <input type="text", name='h', placeholder="enter 8"> <br><br>
+            month :  <input type="text", name='i', placeholder="enter 9"> <br><br>
+            day :  <input type="text", name='j', placeholder="enter 10"> <br><br>
+            hour :  <input type="text", name='k', placeholder="enter 11"> <br><br></b>
+            <input type="submit" , value='predict' >
+        </form>
+
+        </center>
+
+</body>
+</html>
